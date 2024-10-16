@@ -17,4 +17,6 @@ model.add(MaxPool2D(pool_size=(2,2)))
 #Flatten katmanı eklenir
 model.add(Flatten( ))
 model.add(Dense(1000,activation='relu') )
-model.add(Dense(10,activation='softmax') )# 10 tane etiket olduğu için 10 tane sinir node uluşturuldu.
+model.add(Dense(1,activation='softmax') )# 10 tane etiket olduğu için 10 tane sinir node uluşturuldu.
+
+

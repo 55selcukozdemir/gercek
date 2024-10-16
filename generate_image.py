@@ -68,4 +68,22 @@ print(f"Train data shape: {train_data.shape}")
 print(f"Test data shape: {test_data.shape}")
 print(f"Train labels shape: {train_labels.shape}")
 print(f"Test labels shape: {test_labels.shape}")
-        
+
+
+from keras.models import Sequential
+from keras.layers import Dense,Flatten,Conv2D,MaxPool2D 
+# Model tanımlanır
+model=Sequential()
+#CNN ve pooling katmanları eklenir
+model.add(Conv2D(32,(3,3),activation='relu',input_shape=(26, 34, 1)))
+model.add(MaxPool2D(pool_size=(2,2)))
+model.add(Conv2D(64,(3,3),activation='relu'))
+model.add(MaxPool2D(pool_size=(2,2)))
+#Flatten katmanı eklenir
+model.add(Flatten( ))
+model.add(Dense(128,activation='relu') )
+model.add(Dense(1,activation='sigmoid') )
+# Model compile
+model.compile(loss='binary_crossentropy',optimizer='adam',metrics=['accuracy'])
+
+learnedmodel=model.fit(train_data,train_labels,batch_size=32,epochs=10,validation_split=0.2)

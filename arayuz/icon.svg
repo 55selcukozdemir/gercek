@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="85.012177mm"
+   height="70.542023mm"
+   viewBox="0 0 85.012177 70.542023"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Katman 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-54.263089,-63.126066)">
+    <rect
+       style="fill:#772290;fill-opacity:1;stroke:none;stroke-width:1.00093"
+       id="rect1"
+       width="85.012177"
+       height="70.542023"
+       x="54.263088"
+       y="63.126068"
+       ry="10.231948" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;line-height:0.9;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.268"
+       x="63.111305"
+       y="116.48477"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:Corbel;-inkscape-font-specification:'Corbel Bold Italic';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.268;stroke-opacity:1"
+         x="63.111305"
+         y="116.48477">ÖZ</tspan></text>
+  </g>
+</svg>
